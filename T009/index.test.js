@@ -1,7 +1,7 @@
-const sum = require('./index');
+const fn = require('./index');
 
 test('T009', () => {
-    expect(sum(121)).toBeTruthy();
-    expect(sum(2112)).toBeTruthy();
-    expect(sum(123)).not.toBeTruthy();
+    expect(fn(121)).toBeTruthy();
+    expect(fn(2112)).toBeTruthy();
+    expect(fn(123)).not.toBeTruthy();
 });
