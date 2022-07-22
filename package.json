@@ -1,0 +1,14 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "git@github.com:logan-yunlong/leetcode.git",
+  "author": "loganylwu <loganylwu@tencent.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
